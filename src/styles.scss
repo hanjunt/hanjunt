@@ -1,0 +1,30 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #3C403D;
+}
+::-webkit-scrollbar-thumb {
+    background: #69a570;
+}
+
+html {
+    background-color: #cdcfcb;
+    color: #3C403D;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.frame {
+    box-shadow: 20px 20px 50px #3C403D;
+}
+
+mat-progress-bar .mat-progress-bar-fill::after {
+    background-color: #609761;
+}
+
+mat-progress-bar .mat-progress-bar-buffer {
+    background: #9DC88D;
+}
+
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

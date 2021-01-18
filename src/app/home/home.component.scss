@@ -1,0 +1,113 @@
+.container {
+    margin-left: 5rem;
+    height: 100vh;
+}
+
+.parallax {
+    background-image: url("../../assets/home-background.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction {
+    color: #FFF;
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    position: sticky;
+    top: 5rem;
+}
+
+.instruction {
+    height:80vh;
+    padding-top: 20vh;
+    color: #FFF;
+    font-size: 4vh;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+
+    .sidebar-instruction {
+        margin-top: 20vh;
+        margin-left: 11rem;
+    }
+
+    .button-instruction {
+        position: absolute;
+        bottom: 0;
+        margin-left: 35vw;
+    }
+}
+
+.smol {
+    font-size: 1rem;
+}
+p {
+    margin: 0;
+}
+
+.photo {
+    height: 60vh;
+    width: 40vw;
+    float: right;
+    margin-right: 8vw;
+    
+}
+img {
+    height: 66.6%;
+    border-radius: 18px;
+    z-index: 2;
+}
+.frame {
+    height: 66.6%;
+    border-radius: 18px;
+    // border: 15px solid #3C403D;
+    background-color: #3C403D;
+    margin-bottom: -35vh;
+    margin-left: 7vw;
+    margin-right: 4vw;
+    z-index: 1;
+}
+
+// navigation button
+.buttons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.nav-button {
+    height: 4rem;
+    width:  4rem;
+    margin: 0.3rem;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    background-color: #69a570;
+    cursor: pointer;
+}
+svg {
+    width: 2rem;
+    height: 2rem;
+}
+.fa-primary {
+    color: #DADED4;
+    transition: 600ms;
+}
+.nav-button:hover {
+    background-color: #41b94d;
+    transition: 600ms;
+}
+::ng-deep .tooltip {
+    font-size: 2vh;
+    font-family: 'Open Sans', sans-serif;
+}

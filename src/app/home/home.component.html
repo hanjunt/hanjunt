@@ -1,0 +1,42 @@
+<div class="container">
+
+  <div class="parallax">
+    <div class="introduction">
+      <p>hi! Juntao's not home</p>
+      <p>but you can look around</p>
+      <p>👇</p>
+    </div>
+  </div>
+
+  <!-- this div enables parallax scrolling -->
+  <div class="instruction">
+
+    <div class="photo">
+      <div class="frame"></div>
+      <img src="../../assets/midnight.JPG" alt="">
+    </div>
+
+    <div class="sidebar-instruction">
+      <p>👈</p>
+      <p>hover over the sidebar</p>
+      <p class="smol">and, you know, click</p>
+    </div>
+
+    <div class="button-instruction">
+      <p>👉</p>
+      <p>please push my buttons</p>
+      <p class="smol">no pun intended</p>
+    </div>
+
+  </div>
+  
+  <div class="buttons">
+    <button class="nav-button" id="top-button" (click)="scroll()" matTooltip="back to top" matTooltipClass="tooltip">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up" class="svg-inline--fa fa-arrow-up fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="fa-primary" fill="currentColor" d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg>
+    </button>
+    <button class="nav-button" id="home-button" matTooltip="back to home" matTooltipClass="tooltip" (click)="openSnackBar()">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home" class="svg-inline--fa fa-home fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path class="fa-primary" fill="currentColor" d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path></svg>
+    </button>
+  </div>
+
+</div>

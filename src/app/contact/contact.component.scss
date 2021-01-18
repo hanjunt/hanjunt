@@ -1,0 +1,100 @@
+.container {
+    margin-left: 5rem;
+    position: relative;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.frame {
+    width: 75vw;
+    height: 80vh;
+    border: 15px solid #3C403D;
+    border-radius: 18px;
+
+    font-family: 'Open Sans', sans-serif, monospace;
+    font-size: 2vw;
+    font-weight: bold;
+
+    background-image: url(../../assets/contact.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.upper {
+    width: 100%;
+    height: 50%;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .logos {
+        display: flex;
+        flex-direction: row;
+    }
+    img {
+        height: 8vh;
+        width: 8vh;
+        margin-left: 10vw;
+        border-radius: 2vh;
+    }
+}
+.lower {
+    width: 100%;
+    height: 50%;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    button {
+        margin-left: 10vw;
+        padding: 10px;
+        width: 18vw;
+        text-overflow: ellipsis;
+        font-size: 1vw;
+        font-family: 'Open Sans', sans-serif, monospace;
+        font-weight: bold;
+    }
+    button:hover {
+        opacity: 0.8;
+        transition: 600ms;
+    }
+}
+
+img:hover {
+    opacity: 0.8;
+    transition: 600ms;
+}
+
+// navigation button
+.buttons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.nav-button {
+    height: 4rem;
+    width:  4rem;
+    margin: 0.3rem;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    background-color: #69a570;
+    cursor: pointer;
+}
+svg {
+    width: 2rem;
+    height: 2rem;
+}
+.fa-primary {
+    color: #DADED4;
+    transition: 600ms;
+}
+.nav-button:hover {
+    background-color: #41b94d;
+    transition: 600ms;
+}
+::ng-deep .tooltip {
+    font-size: 2vh;
+    font-family: 'Open Sans', sans-serif;
+}
