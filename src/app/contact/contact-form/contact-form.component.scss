@@ -43,10 +43,3 @@
         resize: vertical;
     }
 }
-
-::ng-deep.mat-dialog-actions {
-    button:hover {
-        background-color: rgb(216, 216, 216);
-        transition: 600ms;
-    }
-}
