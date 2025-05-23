@@ -1,4 +1,10 @@
-### Hi there this is JT 👋
+{
+    "name": "Juntao",
+    "location": "Toronto",
+    "funFact": "Used to be the youngest person in the world",
+    "linkedin": [linkedin.com/in/juntaohan](https://www.linkedin.com/in/juntaohan/)
+}
+
 
 <!--
 **hanjunt/hanjunt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
